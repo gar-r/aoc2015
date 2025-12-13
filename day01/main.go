@@ -1,12 +1,12 @@
 package main
 
 import (
-	input "aoc2015/util"
+	"aoc2015/util"
 	"fmt"
 )
 
 func main() {
-	data := input.ReadInputString("input/day01-real.txt")
+	data := util.ReadInputString("input/day01-real.txt")
 	floor := 0
 	index := -1
 	for i, c := range data {

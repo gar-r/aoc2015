@@ -4,6 +4,9 @@
 
 ```
 mkdir ./day01
+cd ./day01
+go mod init aoc2015/day01
+cd ..
 go work use ./day01
 go work sync
 ```
@@ -13,7 +16,7 @@ go work sync
 From the workspace root:
 
 ```
-go run ./day01/main.go
+go run ./day01
 ```
 
 ## Use dependencies from other modules in the workspace
@@ -22,12 +25,12 @@ After adding the module to the workspace, public functions are accessible via th
 
 ## Read a puzzle input file
 
-Use the `input` package in the `util` module.
+Use the `util` module.
 
 For example, when running a module from the workspace root:
 
 ```go
-s := input.ReadInputString("input/day01-example.txt")
+s := util.ReadInputString("input/day01-example.txt")
 ````
 
 Note: Puzzle inputs should not be commited to the repository.
