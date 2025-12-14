@@ -3,5 +3,6 @@ go 1.25.5
 use (
 	./day01
 	./day02
+	./day03
 	./util
 )
