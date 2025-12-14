@@ -16,7 +16,7 @@ go work sync
 From the workspace root:
 
 ```
-go run ./day01
+go run aoc2015/day01
 ```
 
 ## Use dependencies from other modules in the workspace
